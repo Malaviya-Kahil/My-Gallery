@@ -123,27 +123,16 @@ tl.from('.container', {
    ease: "back.out(1.7)",
 })
 tl.from('.close', {
-   y: -20,
-   x: 20,
-
+   y: -50,
+   x: 50,
    duration: 0.8,
-opacity:0
 })
-tl.from('.heart', {
-   y: -20,
-
-   duration: 0.8,
-   opacity: 0,
-   ease: "back.out(1.7)",
-})
-
-
 
 document.querySelector('.close').addEventListener('click', function () {
    tl.reverse()
    setTimeout(function () {
       document.querySelector('.plaster').style.display = 'none'
-   }, 2200)
+   }, 1300)
 })
 
 document.querySelector('#img1').addEventListener('click', function () {
@@ -151,7 +140,7 @@ document.querySelector('#img1').addEventListener('click', function () {
    document.querySelector('.image').innerHTML = img1
    document.querySelector('.plaster').style.display = 'flex'
    tl.play()
-   document.querySelector('.heart').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
+   document.querySelector('.imageData').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
    like = 1
 })
 document.querySelector('#img2').addEventListener('click', function () {
@@ -159,7 +148,7 @@ document.querySelector('#img2').addEventListener('click', function () {
    document.querySelector('.image').innerHTML = img2
    document.querySelector('.plaster').style.display = 'flex'
    tl.play()
-   document.querySelector('.heart').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
+   document.querySelector('.imageData').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
    like = 1
 })
 document.querySelector('#img3').addEventListener('click', function () {
@@ -167,7 +156,7 @@ document.querySelector('#img3').addEventListener('click', function () {
    document.querySelector('.image').innerHTML = img3
    document.querySelector('.plaster').style.display = 'flex'
    tl.play()
-   document.querySelector('.heart').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
+   document.querySelector('.imageData').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
    like = 1
 })
 document.querySelector('#img4').addEventListener('click', function () {
@@ -175,7 +164,7 @@ document.querySelector('#img4').addEventListener('click', function () {
    document.querySelector('.image').innerHTML = img4
    document.querySelector('.plaster').style.display = 'flex'
    tl.play()
-   document.querySelector('.heart').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
+   document.querySelector('.imageData').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
    like = 1
 })
 document.querySelector('#img5').addEventListener('click', function () {
@@ -183,7 +172,7 @@ document.querySelector('#img5').addEventListener('click', function () {
    document.querySelector('.image').innerHTML = img5
    document.querySelector('.plaster').style.display = 'flex'
    tl.play()
-   document.querySelector('.heart').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
+   document.querySelector('.imageData').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
    like = 1
 })
 document.querySelector('#img6').addEventListener('click', function () {
@@ -191,7 +180,7 @@ document.querySelector('#img6').addEventListener('click', function () {
    document.querySelector('.image').innerHTML = img6
    document.querySelector('.plaster').style.display = 'flex'
    tl.play()
-   document.querySelector('.heart').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
+   document.querySelector('.imageData').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
    like = 1
 })
 document.querySelector('#img7').addEventListener('click', function () {
@@ -199,7 +188,7 @@ document.querySelector('#img7').addEventListener('click', function () {
    document.querySelector('.image').innerHTML = img7
    document.querySelector('.plaster').style.display = 'flex'
    tl.play()
-   document.querySelector('.heart').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
+   document.querySelector('.imageData').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
    like = 1
 })
 document.querySelector('#img8').addEventListener('click', function () {
@@ -207,7 +196,7 @@ document.querySelector('#img8').addEventListener('click', function () {
    document.querySelector('.image').innerHTML = img8
    document.querySelector('.plaster').style.display = 'flex'
    tl.play()
-   document.querySelector('.heart').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
+   document.querySelector('.imageData').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
    like = 1
 })
 document.querySelector('#img9').addEventListener('click', function () {
@@ -215,7 +204,7 @@ document.querySelector('#img9').addEventListener('click', function () {
    document.querySelector('.image').innerHTML = img9
    document.querySelector('.plaster').style.display = 'flex'
    tl.play()
-   document.querySelector('.heart').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
+   document.querySelector('.imageData').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
    like = 1
 })
 document.querySelector('#img10').addEventListener('click', function () {
@@ -223,7 +212,7 @@ document.querySelector('#img10').addEventListener('click', function () {
    document.querySelector('.image').innerHTML = img10
    document.querySelector('.plaster').style.display = 'flex'
    tl.play()
-   document.querySelector('.heart').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
+   document.querySelector('.imageData').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
    like = 1
 })
 
@@ -233,7 +222,7 @@ document.querySelector('#img11').addEventListener('click', function () {
    document.querySelector('.image').innerHTML = img11
    document.querySelector('.plaster').style.display = 'flex'
    tl.play()
-   document.querySelector('.heart').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
+   document.querySelector('.imageData').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
    like = 1
 })
 document.querySelector('#img12').addEventListener('click', function () {
@@ -241,7 +230,7 @@ document.querySelector('#img12').addEventListener('click', function () {
    document.querySelector('.image').innerHTML = img12
    document.querySelector('.plaster').style.display = 'flex'
    tl.play()
-   document.querySelector('.heart').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
+   document.querySelector('.imageData').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
    like = 1
 })
 document.querySelector('#img13').addEventListener('click', function () {
@@ -257,7 +246,7 @@ document.querySelector('#img14').addEventListener('click', function () {
    document.querySelector('.image').innerHTML = img14
    document.querySelector('.plaster').style.display = 'flex'
    tl.play()
-   document.querySelector('.heart').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
+   document.querySelector('.imageData').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
    like = 1
 })
 document.querySelector('#img15').addEventListener('click', function () {
@@ -265,7 +254,7 @@ document.querySelector('#img15').addEventListener('click', function () {
    document.querySelector('.image').innerHTML = img15
    document.querySelector('.plaster').style.display = 'flex'
    tl.play()
-   document.querySelector('.heart').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
+   document.querySelector('.imageData').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
    like = 1
 })
 document.querySelector('#img16').addEventListener('click', function () {
@@ -273,7 +262,7 @@ document.querySelector('#img16').addEventListener('click', function () {
    document.querySelector('.image').innerHTML = img16
    document.querySelector('.plaster').style.display = 'flex'
    tl.play()
-   document.querySelector('.heart').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
+   document.querySelector('.imageData').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
    like = 1
 })
 document.querySelector('#img17').addEventListener('click', function () {
@@ -281,7 +270,7 @@ document.querySelector('#img17').addEventListener('click', function () {
    document.querySelector('.image').innerHTML = img17
    document.querySelector('.plaster').style.display = 'flex'
    tl.play()
-   document.querySelector('.heart').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
+   document.querySelector('.imageData').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
    like = 1
 })
 document.querySelector('#img18').addEventListener('click', function () {
@@ -289,7 +278,7 @@ document.querySelector('#img18').addEventListener('click', function () {
    document.querySelector('.image').innerHTML = img18
    document.querySelector('.plaster').style.display = 'flex'
    tl.play()
-   document.querySelector('.heart').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
+   document.querySelector('.imageData').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
    like = 1
 })
 document.querySelector('#img19').addEventListener('click', function () {
@@ -297,7 +286,7 @@ document.querySelector('#img19').addEventListener('click', function () {
    document.querySelector('.image').innerHTML = img19
    document.querySelector('.plaster').style.display = 'flex'
    tl.play()
-   document.querySelector('.heart').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
+   document.querySelector('.imageData').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
    like = 1
 })
 document.querySelector('#img20').addEventListener('click', function () {
@@ -305,17 +294,15 @@ document.querySelector('#img20').addEventListener('click', function () {
    document.querySelector('.image').innerHTML = img20
    document.querySelector('.plaster').style.display = 'flex'
    tl.play()
-   document.querySelector('.heart').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
+   document.querySelector('.imageData').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
    like = 1
 })
-
-
 document.querySelector('#img21').addEventListener('click', function () {
    var img21 = document.querySelector('#img21').innerHTML
    document.querySelector('.image').innerHTML = img21
    document.querySelector('.plaster').style.display = 'flex'
    tl.play()
-   document.querySelector('.heart').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
+   document.querySelector('.imageData').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
    like = 1
 })
 document.querySelector('#img22').addEventListener('click', function () {
@@ -323,18 +310,18 @@ document.querySelector('#img22').addEventListener('click', function () {
    document.querySelector('.image').innerHTML = img22
    document.querySelector('.plaster').style.display = 'flex'
    tl.play()
-   document.querySelector('.heart').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
+   document.querySelector('.imageData').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
    like = 1
 })
 var like = 1
-document.querySelector('.heart').addEventListener('click', function () {
+document.querySelector('.imageData').addEventListener('click', function () {
    if (like == 1) {
-      document.querySelector('.heart').innerHTML = '<i class="fa-solid fa-heart"></i><p>liked !</p>'
+      document.querySelector('.imageData').innerHTML = '<i class="fa-solid fa-heart"></i><p>liked !</p>'
       like = 0
    }
    else {
-      document.querySelector('.heart').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
-
+      document.querySelector('.imageData').innerHTML = '<i class="fa-regular fa-heart"></i><p>like</p>'
+     
       like = 1
    }
 })
