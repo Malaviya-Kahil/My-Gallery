@@ -141,17 +141,22 @@ h2 {
 }
 .imageData{
     background-color: rgb(255, 255, 255);
-    padding: 10px 10px 15px ;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+ padding-right: 35px;
+display: flex;
+height: 5%;
+width: 100%;
+justify-content: flex-end;
+align-items: flex-end;
+position: absolute;
 }
 
 i {
     font-size: 15px;
     color: rgb(0, 0, 0);
 }
-
+#fill{
+    color: red;
+}
 .close {
     position: absolute;
     top: 0%;
@@ -170,19 +175,20 @@ i {
 
 
 
-.imageData i {
-    color: red;
-    margin-bottom: 5px;
-}
-
 
 .imageData p {
     color: black;
     font-family: "Josefin Sans", sans-serif;
     text-transform: capitalize;
-    margin: 5px;
     text-wrap: nowrap;
+    display: block;
 }
-
+svg{
+    right: 2%;
+    position: absolute;
+}
+.imageData p span{
+    color: black;
+}
 
 
